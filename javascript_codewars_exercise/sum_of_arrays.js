@@ -4,4 +4,4 @@ The numbers can be negative or non-integer.
 If the array does not contain any numbers then you should return 0.
 */
 
-let sum = (number) => number.reduce( (a,b) => a+b, 0)
+let sum = (numbers) => numbers.reduce( (a,b) => a+b, 0)
