@@ -15,3 +15,9 @@ function countBy(x, n){
     }
     return multiples
 }
+
+//another approuch 
+function countBy(x, n) {
+    // Use map to generate an array of x * i for each i from 1 to n
+    return Array.from({ length: n }, (_, i) => x * (i + 1));
+}
