@@ -1,0 +1,10 @@
+﻿<values>
+  <value name="PID" type="int">894</value>
+  <value name="VSExeVersion" type="string">4.1000.24.12402</value>
+  <value name="CTime" type="qword">133553951910330842</value>
+  <value name="ExeName" type="string">Microsoft.CodeAnalysis.LanguageServer</value>
+  <value name="VSInstanceId" type="string">68c65e7f-b0ee-4af2-8f13-993e1d2af6621710921561872</value>
+  <value name="VSIs64BitProcess" type="string">True</value>
+  <value name="ShutdownReason" type="int">3</value>
+  <value name="StillAlive" type="qword">133554490172061965</value>
+</values>
