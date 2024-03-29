@@ -29,4 +29,4 @@ The input array and first names will always be valid and formatted as in the exa
 This kata is part of the Coding Meetup series which includes a number of short and easy to follow katas which have been designed to allow mastering the use of higher-order functions. In JavaScript this includes methods like: forEach, filter, map, reduce, some, every, find, findIndex.
 */ 
 
-const findOddNames = list => list.filter(developer => developer.firstName.split('').reduce((acc, char) => acc + char.charCodeAt(), 0) % 2 !== 0)
+const findOddNames = (list) => list.filter(developer => developer.firstName.split('').reduce((acc, char) => acc + char.charCodeAt(), 0) % 2 !== 0)
