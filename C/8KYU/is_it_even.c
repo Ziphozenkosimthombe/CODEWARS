@@ -1,19 +1,13 @@
+#include <math.h>
 #include <stdbool.h>
 
 /**
- * code will determine if the number passed is even (or not)
- * @param number
- * @return
+ * Function to determine if the number passed is even or not
+ * @param n - the number to check
+ * @return true if the number is even, false otherwise
  */
-
 bool is_even(double n) {
-  if (n == (int)n) {
-    if ((int)n % 2 == 0) {
-      return true;
-    } else {
-      return false;
-    }
-  } else {
-    return false;
-  }
+  // If the number is an integer and the remainder when divided by 2 is 0, it is
+  // even
+  return fmod(n, 2) == 0.0;
 }
